@@ -1,8 +1,9 @@
-@AbapCatalog.sqlViewName: 'zifestat000109'
+@AbapCatalog.sqlViewName: 'ZIFESTAT000109'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Travel Status view entity'
+@ObjectModel.resultSet.sizeCategory: #XS
 define view ZI_FE_STAT_000109
   as select from zfe_astat_000109 as Status
 {
